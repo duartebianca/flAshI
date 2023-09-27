@@ -14,14 +14,6 @@ Aprender um novo idioma pode ser desafiador, e os flashcards são uma ferramenta
 - **Personalização:** Com o flAshI, os estudantes podem criar seus próprios flashcards com palavras e frases específicas que desejam aprender.
 - **Recursos Multimídia:** A inclusão de áudio de pronúncia e imagens geradas pelo DALL-E torna o aprendizado de idiomas mais rico e envolvente.
 
-# flAshI - Plataforma de Flashcards para Aprendizado de Idiomas 📚🌎
-
-Bem-vindo ao repositório principal do projeto flAshI! Aqui você encontrará informações sobre a plataforma flAshI, que é uma aplicação voltada para a geração de decks de flashcards projetados para o aprendizado de idiomas. Os flashcards incluem imagens geradas pelo modelo DALL-E, áudio de pronúncia, frases idiomáticas no idioma original e suas respectivas traduções.
-
-## Sobre o Projeto 🚀
-
-Aprender um novo idioma pode ser desafiador, e os flashcards são uma ferramenta eficaz amplamente reconhecida para auxiliar nesse processo. Eles se baseiam na ciência da aprendizagem espacial e da repetição espaçada, tornando o flAshI uma ferramenta poderosa para estudantes de idiomas.
-
 ### Como Utilizar o flAshI 🔍📝
 
 Para utilizar o flAshI e gerar seus próprios flashcards, siga as etapas abaixo:
@@ -29,14 +21,36 @@ Para utilizar o flAshI e gerar seus próprios flashcards, siga as etapas abaixo:
 1. Acesse o [flAshI](https://flashi-pwa.netlify.app/). Por favor, esteja ciente de que, devido ao processo de renderização, a aplicação deve demorar para carregar pela primeira vez, se você não fez nenhuma requisição por um tempo.
 2. Certifique-se de ter as chaves de API necessárias:
    - 2.1 [Chave da OpenAI API](https://platform.openai.com/docs/api-reference/turbo): Esta chave é necessária para geração de frases e imagens e tradução de texto.
-     - 2.1.1 
+     - Como obter?
+        - Vá em [API Keys](https://platform.openai.com/account/api-keys).
+        - Selecione "create a new secret key".
+        - Certifique-se de ir em Biling e ativar uma forma de pagamento.<br> **```⚠️ O uso do flAshI consome créditos e, consequentemente, dinheiro ⚠️ ```**
    - 2.2 [Chave da API do Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech): Esta chave é usada para a síntese de fala.
-     - 2.2.1 Como obter?
-       - .
-
+     - Como obter?
+       - Passo 1: Configurar uma Conta do Google Cloud Platform (GCP)
+         Se você ainda não tiver uma conta do GCP, siga estas etapas:
+         1. Acesse https://cloud.google.com/.
+         2. Clique em "Get started for free" (Comece gratuitamente) ou "Console" no canto superior direito.
+         3. Siga as instruções para criar uma nova conta ou fazer login em uma conta existente
+       - Passo 2: Criar um Projeto no GCP
+         Após fazer login na sua conta do GCP, siga estas etapas para criar um projeto:
+         1. No Console do GCP, clique no menu de navegação (ícone de três linhas no canto superior esquerdo) e selecione "Cloud Console".
+         2. Clique no seletor de projetos no topo da página e clique em "Novo projeto".
+         3. Preencha o nome do projeto, selecione uma organização (se aplicável) e escolha um local (região) para o projeto.
+         4. Clique em "Criar" para criar o projeto.
+       - Passo 3: Habilitar a API do Text-to-Speech
+         1. No Console do GCP, clique no menu de navegação e vá para "APIs & Services" (APIs e Serviços) > "Dashboard".
+         2. Clique no botão "+ ENABLE APIS AND SERVICES" (Habilitar APIs e Serviços).
+         3. Clique em "Enable" (Habilitar) para ativar a API para o seu projeto.
+        - Passo 4: Criar uma Chave de API
+         1. No Console do GCP, clique no menu de navegação e vá para "APIs & Services" (APIs e Serviços) > "Credentials" (Credenciais).
+         2. Na guia "Credentials" (Credenciais), clique no botão "+ CREATE CREDENTIALS" (Criar Credenciais) e selecione "Service Account Key" (Chave de Conta de Serviço).
+         3. Preencha os detalhes da conta de serviço, como nome e papel. Você pode atribuir o papel "Project" > "Editor" para dar acesso completo ao projeto.
+         4. Em "Key Type" (Tipo de Chave), selecione "JSON" como o formato da chave.
+         5. Clique em "Create" (Criar) para criar a chave de API. O arquivo JSON com a chave será baixado para o seu computador.
 4. Siga as instruções que aparecerão na tela. Você será solicitado a inserir uma ou mais palavras separadas por vírgula que deseja incluir nos seus flashcards.
 
-5. Aguarde um momento enquanto o flAshI gera os flashcards para você. Você pode observar uma animação durante esse processo.
+5. Aguarde um momento enquanto o flAshI gera os flashcards para você. Você pode observar nossa animação fofa durante este processo :)
 
 6. Exportação para o Anki: Se você deseja exportar os flashcards para o Anki, esteja ciente de que esse processo pode demorar um pouco, dependendo da quantidade de flashcards gerados.
 
