@@ -20,12 +20,12 @@ Para utilizar o flAshI e gerar seus próprios flashcards, siga as etapas abaixo:
 
 1. Acesse o [flAshI](https://flashi-pwa.netlify.app/). Por favor, esteja ciente de que, devido ao processo de renderização, a aplicação deve demorar para carregar pela primeira vez, se você não fez nenhuma requisição por um tempo.
 2. Certifique-se de ter as chaves de API necessárias:
-   - 2.1 [Chave da OpenAI API](https://platform.openai.com/docs/api-reference/turbo): Esta chave é necessária para geração de frases e imagens e tradução de texto.
+   - 2.1 [Chave da OpenAI API](https://platform.openai.com/docs/api-reference/turbo): Esta chave é necessária para geração de frases e imagens e tradução de texto.<br> **```⚠️ O uso do flAshI consome créditos e, consequentemente, dinheiro ⚠️ ```**
      - Como obter?
         - Vá em [API Keys](https://platform.openai.com/account/api-keys).
         - Selecione "create a new secret key".
-        - Certifique-se de ir em Biling e ativar uma forma de pagamento.<br> **```⚠️ O uso do flAshI consome créditos e, consequentemente, dinheiro ⚠️ ```**
-   - 2.2 [Chave da API do Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech): Esta chave é usada para a síntese de fala.
+        - Certifique-se de ir em Biling e ativar uma forma de pagamento.
+   - 2.2 [Chave da API do Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech): Esta chave é usada para a síntese de fala.<br> **```⚠️ O uso do flAshI consome créditos e, consequentemente, dinheiro ⚠️ ```**
      - Como obter?
        - Passo 1: Configurar uma Conta do Google Cloud Platform (GCP)
          Se você ainda não tiver uma conta do GCP, siga estas etapas:
@@ -44,10 +44,10 @@ Para utilizar o flAshI e gerar seus próprios flashcards, siga as etapas abaixo:
          3. Clique em "Enable" (Habilitar) para ativar a API para o seu projeto.
         - Passo 4: Criar uma Chave de API
          1. No Console do GCP, clique no menu de navegação e vá para "APIs & Services" (APIs e Serviços) > "Credentials" (Credenciais).
-         2. Na guia "Credentials" (Credenciais), clique no botão "+ CREATE CREDENTIALS" (Criar Credenciais) e selecione "Service Account Key" (Chave de Conta de Serviço).
-         3. Preencha os detalhes da conta de serviço, como nome e papel. Você pode atribuir o papel "Project" > "Editor" para dar acesso completo ao projeto.
-         4. Em "Key Type" (Tipo de Chave), selecione "JSON" como o formato da chave.
-         5. Clique em "Create" (Criar) para criar a chave de API. O arquivo JSON com a chave será baixado para o seu computador.
+         2. Na guia "Credentials" (Credenciais), clique no botão "+ CREATE CREDENTIALS" (Criar Credenciais) e selecione "API Key".
+         3. Configure a chave em "Edit API key", conforme Passo 5.
+        - Passo 5: Configure a Chave de API
+          Agora você possui uma chave de API do Google Cloud Text-to-Speech e pode usá-la para integrar a funcionalidade de conversão de texto em fala em seus aplicativos ou serviços. Certifique-se de seguir as práticas recomendadas de segurança ao usar chaves de API. Lembre-se de manter a chave em um local seguro e não compartilhá-la publicamente, pois ela concede acesso ao seu projeto no GCP.    
 4. Siga as instruções que aparecerão na tela. Você será solicitado a inserir uma ou mais palavras separadas por vírgula que deseja incluir nos seus flashcards.
 
 5. Aguarde um momento enquanto o flAshI gera os flashcards para você. Você pode observar nossa animação fofa durante este processo :)
@@ -57,6 +57,17 @@ Para utilizar o flAshI e gerar seus próprios flashcards, siga as etapas abaixo:
 7. Desempenho do Aplicativo: O flAshI tende a ter um melhor desempenho em notebooks e PCs do que em dispositivos móveis, devido à complexidade das operações de IA e renderização de imagens.
 
 Aproveite a jornada de aprendizado de idiomas com o flAshI e bons estudos! 🌟📖🗣️
+
+## Tecnologias Utilizadas 🛠️
+
+O flAshI utiliza uma série de tecnologias e modelos de IA para fornecer recursos avançados de aprendizado de idiomas:
+
+- Front-end: [Next.js](https://nextjs.org/), [SASS](https://sass-lang.com/), [Styled-components](https://styled-components.com/), [TypeScript](https://www.typescriptlang.org/), [Redux](https://redux.js.org/)
+- Back-end: [TypeORM](https://typeorm.io/), [PostgreSQL](https://www.postgresql.org/)
+- Exportação para o Anki: [Flask](https://flask.palletsprojects.com/en/2.1.x/), [GenAnki](https://github.com/kerrickstaley/genanki), [Python](https://www.python.org/).
+- IA para Geração de Imagens: [OpenAI API (DALL-E 2)](https://platform.openai.com/docs/api-reference/dall-e)
+- IA para Tradução de Texto: [OpenAI API (GPT-3.5 Turbo)](https://platform.openai.com/docs/api-reference/turbo)
+- IA para Síntese de Fala: [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech)
 
 ## Como Contribuir 🤝🌐
 
@@ -85,23 +96,15 @@ Se você deseja ajudar no desenvolvimento desta ferramenta, siga as etapas abaix
 
 6. Nossa equipe revisará suas contribuições e as incorporará ao projeto.
 
-## Tecnologias Utilizadas 🛠️
-
-O flAshI utiliza uma série de tecnologias e modelos de IA para fornecer recursos avançados de aprendizado de idiomas:
-
-- Front-end: [Next.js](https://nextjs.org/), [SASS](https://sass-lang.com/), [Styled-components](https://styled-components.com/), [TypeScript](https://www.typescriptlang.org/), [Redux](https://redux.js.org/)
-- Back-end: [Express](https://expressjs.com/), [Flask](https://flask.palletsprojects.com/en/2.1.x/), [TypeORM](https://typeorm.io/), [PostgreSQL](https://www.postgresql.org/)
-- IA para Geração de Imagens: [OpenAI API (DALL-E 2)](https://platform.openai.com/docs/api-reference/dall-e)
-- IA para Tradução de Texto: [OpenAI API (GPT-3.5 Turbo)](https://platform.openai.com/docs/api-reference/turbo)
-- IA para Síntese de Fala: [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech)
-
 ## Status do Repositório flashi-app-back 📊
 
 O back-end não foi deployado na aplicação até a data da apresentação do projeto. Destacamos aqui as atividades a serem feitas e as já concluídas no repositório [flashi-app-back](https://github.com/maikermenezes/flashi-app-back):
-
-- Atividades:
-  - Login não funciona no deploy (e nem sempre localmente) ❌
-  - 
+- Atividades já concluídas:
+  - Login, no geral, funcionava locamente ✅
+  - Criação do banco de dados ✅
+  - Salvamento dos decks no banco de dados ✅
+- Atividades a serem feitas:
+  - Login não funciona no deploy (apresentou inconsistências) ❌
 
 Se você estiver interessado em contribuir para essas tarefas ou desejar adicionar novos recursos ao flAshI, fique à vontade para colaborar!
 
