@@ -77,24 +77,13 @@ Se você deseja ajudar no desenvolvimento desta ferramenta, siga as etapas abaix
    - [flashi-app-front](https://github.com/maikermenezes/flashi-app-front): Front-end da aplicação web.
    - [anki-export](https://github.com/rosean3/anki-export): Exportação de decks para o formato Anki, utilizando Python, Flask e Next.
    - [flashi-app-back](https://github.com/maikermenezes/flashi-app-back): Back-end da aplicação (recursos em desenvolvimento ou com deploy pendente).
-
-2. Clone o repositório escolhido:
-
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   ```
-
-3. Explore as atividades a serem feitas e as já concluídas no repositório [flashi-app-back](https://github.com/maikermenezes/flashi-app-back) para saber onde você pode contribuir.
-
-4. Faça as modificações necessárias e crie um branch para suas alterações:
-
-   ```bash
-   git checkout -b minha-contribuicao
-   ```
-
-5. Após concluir suas alterações, faça um pull request no repositório correspondente.
-
-6. Nossa equipe revisará suas contribuições e as incorporará ao projeto.
+2. Faça um fork do repositório no GitHub.
+3. Clone o repositório forked em sua máquina local.
+4. Explore as atividades a serem feitas e as já concluídas no repositório [flashi-app-back](https://github.com/maikermenezes/flashi-app-back) para saber onde você pode contribuir.
+5. Faça as modificações necessárias e crie um branch para suas alterações.
+6. Faça push de suas alterações para o fork no GitHub.
+7. Após concluir suas alterações, faça um pull request para o repositório original, descrevendo suas alterações e o problema que elas resolvem.
+8. Nossa equipe revisará suas contribuições e as incorporará ao projeto.
 
 ## Status do Repositório flashi-app-back 📊
 
