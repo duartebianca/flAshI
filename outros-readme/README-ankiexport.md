@@ -2,7 +2,7 @@
 
 # Anki Export 🔠📤
 
-Este README fornece documentação para contribuir com o repositório, que contém código para exportar flashcards para decks do Anki usando Flask e a biblioteca Genanki.
+Este README fornece documentação para contribuir com o repositório, que contém código para exportar flashcards para decks do Anki usando Flask e a biblioteca Genanki. A documentação geral do flAshI está disponível [aqui](https://github.com/duartebianca/flAshI/blob/main/README.md).
 
 ## Estrutura do Repositório
 
