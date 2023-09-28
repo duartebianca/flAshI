@@ -22,51 +22,36 @@ Bem-vindo ao repositório do front-end do flAshI.Estamos empolgados em receber s
 
 Antes de começar a contribuir, siga estas etapas para configurar o ambiente de desenvolvimento:
 
-1. **Clone o repositório**:
-
-   ```bash
-   git clone https://github.com/seu-usuario/flashi-app-back.git
-   ```
-
-2. **Instale as dependências**:
-
-   ```bash
-   cd flashi-app-back
-   npm install
-   ```
-
-3. **Inicie o servidor de desenvolvimento**:
+1. Faça um fork do repositório no GitHub e clone o repositório forked em sua máquina local.
+2. Instale as dependências.
+3. Inicie o servidor de desenvolvimento:
 
    ```bash
    npm run dev
    ```
-
    O servidor de desenvolvimento será iniciado em [http://localhost:3000](http://localhost:3000).
 
 ## Contribuindo 🤝🌐
 
 Se você deseja contribuir com melhorias ou correções para este projeto, siga estas etapas:
 
-1. Faça um fork do repositório para a sua conta GitHub.
-2. Crie uma branch para a sua contribuição:
+1. Faça um fork do repositório no GitHub.
 
-   ```bash
-   git checkout -b minha-contribuicao
-   ```
+2. Clone o repositório forked em sua máquina local.
 
-3. Faça as alterações desejadas e commit-as:
+3. Crie um novo branch para sua contribuição.
 
-   ```bash
-   git commit -m "Adicionei recurso X"
-   ```
+4. Faça suas alterações ou adições no código.
 
-4. Envie as alterações para o seu fork:
+5. Teste suas alterações para garantir que funcionem conforme o esperado.
 
-   ```bash
-   git push origin minha-contribuicao
-   ```
+6. Faça commits de suas alterações com mensagens de commit descritivas.
 
-5. Abra um pull request para o repositório principal.
+7. Faça push de suas alterações para o fork no GitHub.
+
+8. Crie um pull request para o repositório original, descrevendo suas alterações e o problema que elas resolvem.
+
+9. Aguarde a revisão e a mesclagem pelos mantenedores do repositório.
 
 ## Documentação Adicional
 
