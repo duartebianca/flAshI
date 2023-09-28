@@ -79,6 +79,13 @@ O flAshI utiliza uma série de tecnologias e modelos de IA para fornecer recurso
 - IA para Tradução de Texto: [OpenAI API (GPT-3.5 Turbo)](https://platform.openai.com/docs/api-reference/turbo)
 - IA para Síntese de Fala: [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech)
 
+## Códigos de Experimentações, intermediários em Python ou ferramentas simples:
+- [Exportação para o Anki em Python](https://colab.research.google.com/drive/1bz85zxuMX0oJtk0DePmC4BdcsU5dTwXq?usp=sharing): Exportação original usando o Genanki em Python, sem conexão com TS.
+- [Plan and Execute | LangChain em Python](https://colab.research.google.com/drive/1iUcNyd8I78xLaGN2BFKAa18mA-L3zR8j?usp=sharing): Experimentação com agente Plan and Execute do LangChain, que não foi utilizado devido a previsibilidade do agente. O motivo da tentativa foi utilizar a ferramenta de pesquisa para obter mais contexto na criação de frases e, quem sabe, evoluir a ferramenta.
+- [Geração de Voz com Text to Speech em Python](https://colab.research.google.com/drive/1la1k9SwkStlbPlM-Eu_uvbXOvoZaQfLm?usp=sharing): Geração de arquivos .ogg utilizando Google Cloud TTS. 
+- [Processamento de Dados para gerar decks padrões](https://colab.research.google.com/drive/1CspUnJgFCrpKCJVVe7pc1CD4KEAsTUx8?usp=sharing): Extrai palavras de PDF do Cambridge English para gerar decks padrões (não implementados porque o back-end não foi).
+- Códigos disponíveis também [aqui](https://github.com/duartebianca/flAshI/tree/main/experimentacoes-intermediarios-etc).
+
 ## Como Contribuir 🤝🌐
 
 Se você deseja ajudar no desenvolvimento desta ferramenta, siga as etapas abaixo:
