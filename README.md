@@ -3,6 +3,16 @@
 # flAshI - Gerador de Flashcards para Aprendizado de Idiomas 📚🌎
 Boas-vindas à documentação do flAshI! Aqui você encontrará informações sobre a plataforma, que é uma aplicação voltada para a geração de decks de flashcards projetados para o aprendizado de idiomas. Os flashcards incluem imagens geradas pelo DALL-E, áudio de pronúncia gerado pelo Text to Speech, frases idiomáticas no idioma original e suas respectivas traduções feitas pelo GPT 3.5-turbo.
 
+## Grupo do Projeto
+- Camila Xavier (cxm)
+- Breno Cavalcanti (bmmuc)
+- Felipe Souza (frs3)
+- Bianca Duarte (bds)
+- Luísa Mendes (mlmsp)
+- Maike Menezes (mhrm2)
+- Roseane Oliveira (rocg)
+
+
 ## Sobre o Projeto 🚀
 
 Aprender um novo idioma pode ser desafiador, e os flashcards são uma ferramenta eficaz amplamente reconhecida para auxiliar nesse processo. O flAshI torna o aprendizado de idiomas mais interativo e divertido, fornecendo uma maneira fácil de criar, compartilhar e estudar flashcards com recursos avançados de IA. Além disso, a exportação para o [Anki](https://ankiweb.net/about) permite utilizar recursos de personalização e repetição espaçada, sendo o último essencial na aprendizagem com idiomas.
