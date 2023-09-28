@@ -77,6 +77,7 @@ Se você deseja ajudar no desenvolvimento desta ferramenta, siga as etapas abaix
    - [flashi-app-front](https://github.com/maikermenezes/flashi-app-front): Front-end da aplicação web.
    - [anki-export](https://github.com/rosean3/anki-export): Exportação de decks para o formato Anki, utilizando Python, Flask e Next.
    - [flashi-app-back](https://github.com/maikermenezes/flashi-app-back): Back-end da aplicação (recursos em desenvolvimento ou com deploy pendente).
+   - **A documentação de cada repositório está [aqui](https://github.com/duartebianca/flAshI/tree/main/outros-readme)**.
 2. Faça um fork do repositório no GitHub.
 3. Clone o repositório forked em sua máquina local.
 4. Explore as atividades a serem feitas e as já concluídas no repositório [flashi-app-back](https://github.com/maikermenezes/flashi-app-back) para saber onde você pode contribuir.
